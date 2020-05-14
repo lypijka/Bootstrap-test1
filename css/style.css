@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+ }
+ a {
+  color: rgba(0, 0, 0, 0.9);
+}
+a:hover { 
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.9);
+ }
+@media (min-width: 768px) {
+  .lead {
+    display: block;
+    margin: 0 auto;
+    max-width: 668px;
+  }
+.col-md-4 {
+  max-width: 30%;
+}
+}
+.card {
+    margin: 15px;
+  }
+.nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
